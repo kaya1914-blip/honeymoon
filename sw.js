@@ -1,5 +1,5 @@
 /* 유럽 신혼여행 2026 — 오프라인 캐시 v3 */
-var CACHE = "honeymoon-v10";
+var CACHE = "honeymoon-v10r2";
 var ASSETS = ["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png", "./icon-maskable-512.png", "./apple-touch-icon.png"];
 self.addEventListener("install", function (e) {
   e.waitUntil(caches.open(CACHE).then(function (c) { return c.addAll(ASSETS); }).then(function () { return self.skipWaiting(); }));
