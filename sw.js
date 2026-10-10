@@ -1,5 +1,5 @@
 /* 유럽 신혼여행 2026 — 오프라인 캐시 v4 */
-var CACHE = "honeymoon-v11r44";
+var CACHE = "honeymoon-v11r45";
 var ASSETS = ["./", "./index.html", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png", "./icon-maskable-512.png", "./apple-touch-icon.png"];
 self.addEventListener("install", function (e) {
   /* 폰 HTTP 캐시(10분)를 건너뛰고 서버에서 새로 받기. index.html에 이 CACHE 이름이 없으면(옛 판) 설치 실패 → 다음 실행 때 재시도.
